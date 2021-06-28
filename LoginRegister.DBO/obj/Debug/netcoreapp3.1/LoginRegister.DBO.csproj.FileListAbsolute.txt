@@ -1,0 +1,12 @@
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.DBO\bin\Debug\netcoreapp3.1\LoginRegister.DBO.deps.json
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.DBO\bin\Debug\netcoreapp3.1\LoginRegister.DBO.runtimeconfig.json
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.DBO\bin\Debug\netcoreapp3.1\LoginRegister.DBO.runtimeconfig.dev.json
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.DBO\bin\Debug\netcoreapp3.1\LoginRegister.DBO.dll
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.DBO\bin\Debug\netcoreapp3.1\LoginRegister.DBO.pdb
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.DBO\obj\Debug\netcoreapp3.1\LoginRegister.DBO.csprojAssemblyReference.cache
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.DBO\obj\Debug\netcoreapp3.1\LoginRegister.DBO.AssemblyInfoInputs.cache
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.DBO\obj\Debug\netcoreapp3.1\LoginRegister.DBO.AssemblyInfo.cs
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.DBO\obj\Debug\netcoreapp3.1\LoginRegister.DBO.csproj.CoreCompileInputs.cache
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.DBO\obj\Debug\netcoreapp3.1\LoginRegister.DBO.dll
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.DBO\obj\Debug\netcoreapp3.1\LoginRegister.DBO.pdb
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.DBO\obj\Debug\netcoreapp3.1\LoginRegister.DBO.genruntimeconfig.cache

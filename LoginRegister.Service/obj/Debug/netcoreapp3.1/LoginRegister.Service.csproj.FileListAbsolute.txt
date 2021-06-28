@@ -1,0 +1,12 @@
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.Service\bin\Debug\netcoreapp3.1\LoginRegister.Service.deps.json
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.Service\bin\Debug\netcoreapp3.1\LoginRegister.Service.dll
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.Service\bin\Debug\netcoreapp3.1\LoginRegister.Service.pdb
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.Service\bin\Debug\netcoreapp3.1\LoginRegister.DBO.dll
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.Service\bin\Debug\netcoreapp3.1\LoginRegister.DBO.pdb
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.Service\obj\Debug\netcoreapp3.1\LoginRegister.Service.csprojAssemblyReference.cache
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.Service\obj\Debug\netcoreapp3.1\LoginRegister.Service.AssemblyInfoInputs.cache
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.Service\obj\Debug\netcoreapp3.1\LoginRegister.Service.AssemblyInfo.cs
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.Service\obj\Debug\netcoreapp3.1\LoginRegister.Service.csproj.CoreCompileInputs.cache
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.Service\obj\Debug\netcoreapp3.1\LoginRegister.Service.csproj.CopyComplete
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.Service\obj\Debug\netcoreapp3.1\LoginRegister.Service.dll
+D:\LoginRegisterAPI\LoginRegisterAPI\LoginRegister.Service\obj\Debug\netcoreapp3.1\LoginRegister.Service.pdb
