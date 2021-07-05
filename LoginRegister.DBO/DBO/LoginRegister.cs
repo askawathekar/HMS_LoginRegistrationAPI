@@ -21,15 +21,22 @@ namespace LoginRegister.DBO.DBO
         //{
         //}
 
-        public Login VerifyLogin(string username, string password)
+        public Login VerifyLogin(string email, string password)
         {
             Login user = new Login();
             try
             {
 
-                user = _context.Login.Where(e => e.UserId == username && e.Password == password).Select(e => new Login
+                //user = _context.Login.Where(e => e.UserId == username && e.Password == password).Select(e => new Login
+                //{
+                //    UserId = e.UserId,
+                //    DefaultRole = e.DefaultRole
+
+                //}).FirstOrDefault();
+
+                user = _context.Login.Where(e => e.Email == email && e.Password == password).Select(e => new Login
                 {
-                    UserId = e.UserId,
+                    Email = e.Email,
                     DefaultRole = e.DefaultRole
 
                 }).FirstOrDefault();
@@ -89,7 +96,8 @@ namespace LoginRegister.DBO.DBO
                 {
                     UserId = "N"+model.ContactNumber,
                     Password = "N" + model.ContactNumber,
-                  //  EncryPassword = new Helper().EncryptPassword(),
+                    Email = model.Email,
+                    //  EncryPassword = new Helper().EncryptPassword(),
                     CreationDate = DateTime.Now,
                     DefaultRole = "Nurse",
                     AdditionalRole = null,
@@ -102,7 +110,7 @@ namespace LoginRegister.DBO.DBO
                 Nurse _nurse = new Nurse()
                 {
                     NurseId = "N" + model.ContactNumber,
-                    NurseName = model.NurseName,
+                    NurseName = model.Fname + " " + model.Lname,
                     Ssn = model.ContactNumber,
                     Email=model.Email,
                     LastUpdatedOn=DateTime.Now
@@ -130,6 +138,7 @@ namespace LoginRegister.DBO.DBO
                 {
                     UserId = "PH" + model.ContactNumber,
                     Password = "PH" + model.ContactNumber,
+                    Email=model.Email,
                   //  EncryPassword = new Helper().EncryptPassword(),
                     CreationDate = DateTime.Now,
                     DefaultRole = "Physican",
@@ -143,7 +152,7 @@ namespace LoginRegister.DBO.DBO
                 Physician _Physician = new Physician()
                 {
                     PhysicianId = "PH" + model.ContactNumber,
-                    PhysicianName = model.PhysicianName,
+                    PhysicianName = model.Fname +" "+ model.Lname,
                     Ssn = model.ContactNumber,
                     Email = model.Email,
                     LastUpdatedOn = DateTime.Now
@@ -168,10 +177,12 @@ namespace LoginRegister.DBO.DBO
                 Login _loginDetails = new Login()
                 {
                     UserId = "PT" + model.ContactNumber,
-                    Password = "PT" + model.ContactNumber,
+                    // Password = "PT" + model.ContactNumber,
+                    Password = model.Password,
+                    Email =model.Email,
                     //EncryPassword = new Helper().EncryptPassword(),
                     CreationDate = DateTime.Now,
-                    DefaultRole = "Physican",
+                    DefaultRole = "Patient",
                     AdditionalRole = null,
                     IsEnabled = true,
                     OtpRequired = "NO"

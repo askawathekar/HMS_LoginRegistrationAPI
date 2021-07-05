@@ -28,14 +28,14 @@ namespace LoginRegisterAPI.Controllers
             {
                 return BadRequest("Invalid client request");
             }
-            var result = _LoginServ.Authenticate(user.UserName, user.Password);
+            var result = _LoginServ.Authenticate(user.Email, user.Password);
             if(result!=null)
             {
-                _token = _LoginServ.GetJWTToken(user.UserName);
+                _token = _LoginServ.GetJWTToken(user.Email);
             }
            
             return Ok( new { 
-                userId=result.UserId,
+                email=result.Email,
                 DefaultRole=result.DefaultRole,
                 JWTToken=_token
             });

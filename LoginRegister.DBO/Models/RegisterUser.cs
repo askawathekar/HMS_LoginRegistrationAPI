@@ -40,6 +40,6 @@ namespace LoginRegisterAPI.Models
         public string PhysicianName { get; set; }
         public string PhysicianId { get; set; }
 
-
+        public string Password { get; set; }
     }
 }

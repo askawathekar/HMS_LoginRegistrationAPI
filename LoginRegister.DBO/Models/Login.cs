@@ -27,8 +27,10 @@ namespace LoginRegister.DBO.Models
     }
     public class LoginModel
     {
+        
+       // public string UserName { get; set; }
         [Required]
-        public string UserName { get; set; }
+        public string Email { get; set; }
         [Required]
         public string Password { get; set; }
     }

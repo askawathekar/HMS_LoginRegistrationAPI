@@ -39,7 +39,12 @@ namespace LoginRegisterAPI
             services.ConfigureCors();
             services.ConfigureIISIntegration();
             services.AddControllers();
-          
+
+            //services.AddCors(o => o.AddPolicy("CorePolicy", builder =>
+            //{
+            //    builder.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin().AllowCredentials();
+            //}));
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -63,7 +68,15 @@ namespace LoginRegisterAPI
             //});
 
             app.UseAuthorization();
-            app.UseCors("EnableCORS");
+            //app.UseCors("EnableCORS");
+            //app.UseCors("CorePolicy");
+
+            app.UseCors(x => x
+               .AllowAnyMethod()
+               .AllowAnyHeader()
+               .SetIsOriginAllowed(origin => true) // allow any origin
+               .AllowCredentials()); // allow credentials
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
