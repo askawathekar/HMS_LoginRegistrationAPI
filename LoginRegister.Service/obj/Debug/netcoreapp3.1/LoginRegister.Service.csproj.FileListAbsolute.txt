@@ -1,0 +1,12 @@
+C:\FINAL_PROJECT\CTBackEndAPI\HMSLoginRegister\LoginRegister.Service\bin\Debug\netcoreapp3.1\LoginRegister.Service.deps.json
+C:\FINAL_PROJECT\CTBackEndAPI\HMSLoginRegister\LoginRegister.Service\bin\Debug\netcoreapp3.1\LoginRegister.Service.dll
+C:\FINAL_PROJECT\CTBackEndAPI\HMSLoginRegister\LoginRegister.Service\bin\Debug\netcoreapp3.1\LoginRegister.Service.pdb
+C:\FINAL_PROJECT\CTBackEndAPI\HMSLoginRegister\LoginRegister.Service\bin\Debug\netcoreapp3.1\LoginRegister.DBO.dll
+C:\FINAL_PROJECT\CTBackEndAPI\HMSLoginRegister\LoginRegister.Service\bin\Debug\netcoreapp3.1\LoginRegister.DBO.pdb
+C:\FINAL_PROJECT\CTBackEndAPI\HMSLoginRegister\LoginRegister.Service\obj\Debug\netcoreapp3.1\LoginRegister.Service.csprojAssemblyReference.cache
+C:\FINAL_PROJECT\CTBackEndAPI\HMSLoginRegister\LoginRegister.Service\obj\Debug\netcoreapp3.1\LoginRegister.Service.AssemblyInfoInputs.cache
+C:\FINAL_PROJECT\CTBackEndAPI\HMSLoginRegister\LoginRegister.Service\obj\Debug\netcoreapp3.1\LoginRegister.Service.AssemblyInfo.cs
+C:\FINAL_PROJECT\CTBackEndAPI\HMSLoginRegister\LoginRegister.Service\obj\Debug\netcoreapp3.1\LoginRegister.Service.csproj.CoreCompileInputs.cache
+C:\FINAL_PROJECT\CTBackEndAPI\HMSLoginRegister\LoginRegister.Service\obj\Debug\netcoreapp3.1\LoginRegister.Service.csproj.CopyComplete
+C:\FINAL_PROJECT\CTBackEndAPI\HMSLoginRegister\LoginRegister.Service\obj\Debug\netcoreapp3.1\LoginRegister.Service.dll
+C:\FINAL_PROJECT\CTBackEndAPI\HMSLoginRegister\LoginRegister.Service\obj\Debug\netcoreapp3.1\LoginRegister.Service.pdb
