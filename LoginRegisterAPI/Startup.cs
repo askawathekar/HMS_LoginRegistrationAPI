@@ -32,7 +32,7 @@ namespace LoginRegisterAPI
             services.AddDbContext<HospitalManagementContext>(options => {
                 options.UseSqlServer(Configuration.GetConnectionString("HMSConstr"));
             });
-            services.AddScoped<IRegister<RegisterUser>, ServiceLayer>();
+            services.AddScoped<IRegister, ServiceLayer>();
             services.AddScoped<IService<Login>, ServiceLayer>();
             services.AddSwaggerGen();
             services.ConfigureJWT();

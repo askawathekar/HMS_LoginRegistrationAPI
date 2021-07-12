@@ -8,7 +8,7 @@ using LoginRegister.DBO.DBO;
 
 namespace LoginRegister.Service.Contracts
 {
-    public class ServiceLayer : IService<Login>,IRegister<RegisterUser>
+    public class ServiceLayer : IService<Login>,IRegister
     {
         private HospitalManagementContext _context;
 
@@ -37,12 +37,19 @@ namespace LoginRegister.Service.Contracts
             var token = new Helper().GetJWTToken(username);
             return token;
         }
-        public bool Register(RegisterUser model)
+        public bool PatientRegister(PatientUser model)
         {
             bool sucess = false;
+            
             sucess = new LoginRegister.DBO.DBO.LoginRegister(_context).RegisterUser(model);
             return sucess;
         }
+        public bool HospitalRegister(HospitalUser model)
+        {
+            bool sucess = false;
 
+            sucess = new LoginRegister.DBO.DBO.LoginRegister(_context).RegisterUser(model);
+            return sucess;
+        }
     }
 }

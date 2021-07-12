@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "orEIT+cfDvqrouPSxyLhiQZaMx0a4i3huUhLClVjtTnT4DXnnAg02wQdVeEEKpCp6Uv1wxmenep/JKIeKOe0CQ==",
+  "dgSpecHash": "5O2GAKzT5EYpQUKqzKjsZDWykB28X+iJSZQXwJPRrlNnAPDS8dACwVwITW4+w8lKyjiVe+gPB/+ihoMesLAX1g==",
   "success": true,
-  "projectFilePath": "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginReg\\LoginRegisterAPI\\LoginRegisterAPI.csproj",
+  "projectFilePath": "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginRegister\\LoginRegisterAPI\\LoginRegisterAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AmolS4\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.15\\microsoft.aspnetcore.authentication.jwtbearer.3.1.15.nupkg.sha512",
     "C:\\Users\\AmolS4\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

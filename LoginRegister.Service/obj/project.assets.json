@@ -5675,11 +5675,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginReg\\LoginRegister.Service\\LoginRegister.Service.csproj",
+      "projectUniqueName": "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginRegister\\LoginRegister.Service\\LoginRegister.Service.csproj",
       "projectName": "LoginRegister.Service",
-      "projectPath": "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginReg\\LoginRegister.Service\\LoginRegister.Service.csproj",
+      "projectPath": "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginRegister\\LoginRegister.Service\\LoginRegister.Service.csproj",
       "packagesPath": "C:\\Users\\AmolS4\\.nuget\\packages\\",
-      "outputPath": "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginReg\\LoginRegister.Service\\obj\\",
+      "outputPath": "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginRegister\\LoginRegister.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AmolS4\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5696,8 +5696,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginReg\\LoginRegister.DBO\\LoginRegister.DBO.csproj": {
-              "projectPath": "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginReg\\LoginRegister.DBO\\LoginRegister.DBO.csproj"
+            "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginRegister\\LoginRegister.DBO\\LoginRegister.DBO.csproj": {
+              "projectPath": "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginRegister\\LoginRegister.DBO\\LoginRegister.DBO.csproj"
             }
           }
         }

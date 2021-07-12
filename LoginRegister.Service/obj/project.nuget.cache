@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hYBNj4jDfVfAnzxtpS3ak584lM7A/nhoDiP02gMQMDLVvCMpILG6VmvC2PYdKsXrKm53wP2sv51NhqYPlGSLhQ==",
+  "dgSpecHash": "tKkia3Yufu2DZDL4wTpU7uZheacHUXJDYS5FytzxEUvq0+xdRHhCniUCjMrf/fh4vNq4cUyG1/f+VXhSBRPQGA==",
   "success": true,
-  "projectFilePath": "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginReg\\LoginRegister.Service\\LoginRegister.Service.csproj",
+  "projectFilePath": "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginRegister\\LoginRegister.Service\\LoginRegister.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AmolS4\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\AmolS4\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

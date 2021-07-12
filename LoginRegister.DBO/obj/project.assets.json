@@ -5728,11 +5728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginReg\\LoginRegister.DBO\\LoginRegister.DBO.csproj",
+      "projectUniqueName": "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginRegister\\LoginRegister.DBO\\LoginRegister.DBO.csproj",
       "projectName": "LoginRegister.DBO",
-      "projectPath": "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginReg\\LoginRegister.DBO\\LoginRegister.DBO.csproj",
+      "projectPath": "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginRegister\\LoginRegister.DBO\\LoginRegister.DBO.csproj",
       "packagesPath": "C:\\Users\\AmolS4\\.nuget\\packages\\",
-      "outputPath": "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginReg\\LoginRegister.DBO\\obj\\",
+      "outputPath": "C:\\FINAL_PROJECT\\CTBackEndAPI\\HMSLoginRegister\\LoginRegister.DBO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AmolS4\\AppData\\Roaming\\NuGet\\NuGet.Config",

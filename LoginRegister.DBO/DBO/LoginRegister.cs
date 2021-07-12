@@ -65,16 +65,29 @@ namespace LoginRegister.DBO.DBO
             return success;
         }
 
-        public bool RegisterUser(RegisterUser model)
+        public bool RegisterUser(PatientUser model)
+        {
+            bool success = false;
+
+            try
+            {
+                success = RegisterPatient(model);
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
+            return success;
+        }
+        public bool RegisterUser(HospitalUser model)
         {
             bool success = false;
 
             switch (model.RoleId)
             {
-                case "2":
-                    success = RegisterPatient(model);
-
-                    break;
+               
                 case "3":
                     success = RegisterPhysician(model);
                     break;
@@ -87,7 +100,7 @@ namespace LoginRegister.DBO.DBO
             return success;
         }
 
-        public bool RegisterNurse(RegisterUser model)
+        public bool RegisterNurse(HospitalUser model)
         {
             bool success = false;
             try
@@ -110,7 +123,7 @@ namespace LoginRegister.DBO.DBO
                 Nurse _nurse = new Nurse()
                 {
                     NurseId = "N" + model.ContactNumber,
-                    NurseName = model.Fname + " " + model.Lname,
+                    NurseName = model.FirstName + " " + model.LastName,
                     Ssn = model.ContactNumber,
                     Email=model.Email,
                     LastUpdatedOn=DateTime.Now
@@ -129,7 +142,7 @@ namespace LoginRegister.DBO.DBO
 
       
 
-        private bool RegisterPhysician(RegisterUser model)
+        private bool RegisterPhysician(HospitalUser model)
         {
             bool success = false;
             try
@@ -152,7 +165,7 @@ namespace LoginRegister.DBO.DBO
                 Physician _Physician = new Physician()
                 {
                     PhysicianId = "PH" + model.ContactNumber,
-                    PhysicianName = model.Fname +" "+ model.Lname,
+                    PhysicianName = model.FirstName +" "+ model.LastName,
                     Ssn = model.ContactNumber,
                     Email = model.Email,
                     LastUpdatedOn = DateTime.Now
@@ -169,7 +182,7 @@ namespace LoginRegister.DBO.DBO
             return success;
         }
 
-        public bool RegisterPatient(RegisterUser model)
+        public bool RegisterPatient(PatientUser model)
         {
             bool success = false;
             try
@@ -194,8 +207,8 @@ namespace LoginRegister.DBO.DBO
                 Patient _Patient = new Patient()
                 {
                     PatientId = "PT" + model.ContactNumber,
-                    Fname = model.Fname,
-                    Lname = model.Lname,
+                    Fname = model.FirstName,
+                    Lname = model.LastName,
                     Age = model.Age,
                     Dob = model.Dob,
                     ContactNumber = model.ContactNumber,
